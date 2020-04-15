@@ -37,7 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'rest_framework.authtoken',
     'core',
+    'user',
 ]
 
 MIDDLEWARE = [
@@ -79,8 +82,10 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'HOST': 'localhost',
         'NAME': 'app',
-        'USER': 'postgres',
-        'PASSWORD': 'd443c210a5874d5b8fe8375c1f1a5298'
+        'USER': 'dawid',
+        # 'USER': 'postgres'
+        'PASSWORD': 'dawid',
+        # 'PASSWORD': 'd443c210a5874d5b8fe8375c1f1a5298'
     }
 }
 
